@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
  */
 class AppModuleTest {
 
-  @Disabled("Retire cette annotation pour activer le test")
+  // @Disabled("Retire cette annotation pour activer le test")
   @Test
   void le_module_lie_serviceauth_a_son_implementation_simple() {
     Injector injector = Guice.createInjector(new AppModule());
